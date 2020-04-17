@@ -6,7 +6,7 @@ household_power_consumption[,"Date"] <- as.Date(household_power_consumption[,"Da
 
 
 #create a subset for the selected timeline between 01-02 and 02-02 in 2007
-mysub <- subset(data,Date == "2007-02-01" | Date == "2007-02-02")
+mysub <- subset(household_power_consumption,Date == "2007-02-01" | Date == "2007-02-02")
 
 
 
