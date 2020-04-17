@@ -1,6 +1,6 @@
 #dataset is imported thtough File->import dataset
 #Reformatting of the date field in the dataset
-household_power_consumption[,"Date"] <- as.Date(househould_power_consumption[,"Date"],format = "%d/%m/%Y")
+household_power_consumption[,"Date"] <- as.Date(household_power_consumption[,"Date"],format = "%d/%m/%Y")
 
 
 
